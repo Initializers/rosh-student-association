@@ -1,0 +1,134 @@
+/* ==========================================================================
+   Sections
+   ========================================================================== */
+#intro { 
+    background: url(../img/sunset.png) 50% 0 fixed; 
+    height: auto;  
+    margin: 0 auto; 
+    width: 100%; 
+/*    position: relative; */ 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 250px 0;
+}
+
+#home { 
+    background: #F0FFF0 50% 0 fixed; 
+    height: auto;  
+    margin: 0 auto; 
+    width: 100%; 
+  /*  position: relative; */
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 200px 0;
+}
+
+#about { 
+    background: url(../img/about.png) 50% 0 fixed; 
+    height: auto;
+    margin: 0 auto; 
+    width: 100%; 
+ /*   position: relative; */ 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 100px 0;
+    color: #fff;
+}
+
+#facebook { 
+    background: #6F5499 50% 0 fixed; 
+    height: auto;
+    margin: 0 auto; 
+    width: 100%; 
+ /* position: relative; */
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 150px 0;
+    color: #fff;
+}
+
+/* ==========================================================================
+   Text
+   ========================================================================== */
+.text-muted-2 {
+    color: #F0FFF0;
+}
+.text-muted-4 {
+    color: #941751;
+}
+.text-muted-3 {
+    color: #000000;
+}
+.media-object { width: 64px; 
+                height: 64px; 
+                padding-bottom: 30px 
+}
+
+.rsWebkit3d  .your-absolute-positoned-elements-selector {
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0); 
+}
+
+/* ==========================================================================
+   Custom Navbar
+   ========================================================================== */
+.navbar-default {
+	background-color: transparent;
+	border-color: #d6d6d6;
+}
+
+.navbar-default.past-main {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-brand {
+	color: #941751;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #941100;
+}
+.navbar-default .navbar-text {
+	color: #941751;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #941751;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #941100;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #941100;
+	background-color: #d6d6d6;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	color: #941100;
+	background-color: #d6d6d6;
+}
+.navbar-default .navbar-toggle {
+	border-color: #d6d6d6;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #d6d6d6;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #941751;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border-color: #941751;
+}
+.navbar-default .navbar-link {
+	color: #941751;
+}
+.navbar-default .navbar-link:hover {
+	color: #941100;
+}
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: #941751;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: #941100;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+		color: #941100;
+		background-color: #d6d6d6;
+	}
+}
