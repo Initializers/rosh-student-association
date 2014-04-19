@@ -12,13 +12,14 @@
 }
 
 #home { 
-    background: url(../img/intro.png) 50% 0 fixed; 
+    background: url(../img/group_photo.png) no-repeat 50% 0 fixed;
+    background-size: cover;
     height: auto;  
     margin: 0 auto; 
     width: 100%; 
   /*  position: relative; */
     box-shadow: 0 0 50px rgba(0,0,0,0.8);
-    padding: 200px 0;
+    padding: 175px 0;
 }
 
 #about { 
@@ -55,16 +56,13 @@
 .text-muted-3 {
     color: #000000;
 }
+.text-muted-5 {
+    color: #FFFFFF;
+}
 .media-object { width: 64px; 
                 height: 64px; 
                 padding-bottom: 30px 
-}
-
-.rsWebkit3d  .your-absolute-positoned-elements-selector {
-    -webkit-backface-visibility: hidden;
-    -webkit-transform: translateZ(0); 
-}
-
+} 
 /* ==========================================================================
    Custom Navbar
    ========================================================================== */
