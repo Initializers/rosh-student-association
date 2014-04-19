@@ -12,7 +12,7 @@
 }
 
 #home { 
-    background: url(../img/group_photo.png) no-repeat center center fixed; 
+    background: url(../img/group_photo.png) 50% 0 fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
